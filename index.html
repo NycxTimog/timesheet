@@ -43,6 +43,9 @@ tr.glow-offset td:nth-child(9){animation:glowOffset 1.35s ease-in-out 2;backgrou
 @media(max-width:600px){.stats-timesheet{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{min-height:88px}.metric-breakdown{grid-template-columns:1fr}.metric-breakdown button{display:flex;justify-content:space-between;align-items:center}.metric-breakdown button strong{order:2}}
 @media(max-width:900px){.stats{grid-template-columns:repeat(3,1fr)}.two{grid-template-columns:1fr}}@media(max-width:600px){.wrap{padding:0 12px 28px}.top{padding:13px 14px}.brand small{font-size:11px}.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:12px}.stat .value{font-size:23px}.page-head{align-items:flex-start;flex-direction:column}.filters{width:100%}.filters select{flex:1;min-width:0}.nav{margin:12px 0 17px}.nav button{padding:9px 11px}.panel{padding:13px}.summary-list{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.form-grid .full{grid-column:auto}}
 </style></head>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config/supabase.js"></script>
+<script src="assets/js/supabase-client.js"></script>
 <body>
 <header class="top"><div class="brand"><div class="logo">▣</div><div><strong>My Attendance</strong><small>Personal Attendance Management</small></div></div><div class="top-right"><span class="role-pill">Demo account&nbsp; <select id="roleSelect" aria-label="Choose demo account"><option value="e1">Alex Morgan</option><option value="e2">Jamie Lee</option><option value="e3">Taylor Cruz</option><option value="admin">Employer / Admin</option></select></span></div></header>
 <main class="wrap"><nav class="nav" id="nav"></nav><div id="app"></div><div class="footer-note">Attendance Management · Prototype · Local browser data only · Demo account selector is not secure authentication</div></main>
