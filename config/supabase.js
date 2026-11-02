@@ -1,7 +1,4 @@
-// Supabase connection placeholder.
-// Later, add your Supabase project URL and publishable (anon) key here.
-// NEVER put a Supabase service_role/secret key in browser JavaScript.
 window.SUPABASE_CONFIG = {
-  url: "",
-  publishableKey: ""
+  url: "https://kheapfkqsiajmivwqxyv.supabase.co",
+  publishableKey: "sb_publishable_u48GbqNpFHohSCetoI2TKg_1GOx1iWf"
 };
