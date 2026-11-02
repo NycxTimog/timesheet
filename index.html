@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b50">
+  <title>Timesheet | Attendance Management</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">T</span><span>Timesheet</span></a>
+    <span class="topbar-note">Attendance Management</span>
+  </header>
+  <main class="page">
+    <section class="welcome">
+      <p class="eyebrow">WORKSPACE</p>
+      <h1>Attendance overview</h1>
+      <p class="muted">Your attendance workspace is being set up. The next step is connecting secure employee accounts and shared records.</p>
+    </section>
+    <section class="stats" aria-label="Attendance summary">
+      <article class="stat"><span class="stat-label">Present today</span><strong>—</strong><small>Awaiting database setup</small></article>
+      <article class="stat"><span class="stat-label">Absent today</span><strong>—</strong><small>Awaiting database setup</small></article>
+      <article class="stat"><span class="stat-label">Pending leaves</span><strong>—</strong><small>Awaiting database setup</small></article>
+    </section>
+    <section class="panel">
+      <div class="panel-heading"><div><p class="eyebrow">TIMESHEET</p><h2>Recent attendance</h2></div><span class="pill">Setup stage</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Date</th><th>Employee</th><th>Time in</th><th>Time out</th><th>Work hours</th><th>OT</th><th>Status</th></tr></thead>
+          <tbody><tr><td colspan="7" class="empty">No attendance records yet. Records will appear here after database setup.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="footnote">This is the initial website shell. Do not enter real employee or attendance data until authentication and database security are configured.</p>
+  </main>
+  <script src="config/supabase.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/timesheet.js"></script>
+  <script src="assets/js/leaves.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
