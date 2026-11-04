@@ -1,4 +1,0 @@
--- Attendance Management database
--- Starter placeholder only. We will add reviewed tables, relationships,
--- indexes, and Row Level Security policies after confirming your leave and work rules.
--- Do not use real employee data until RLS policies have been implemented and tested.
